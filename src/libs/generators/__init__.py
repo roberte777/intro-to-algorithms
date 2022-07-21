@@ -31,5 +31,9 @@ def generate_time_matrix():
                 res.append(end - start)
             #calculate average time
             times.append(sum(res) / len(res))
+        times.append("n^3")
+        times.append("n^2")
+        times.append("nLogn")
+        times.append("n")
         results.append(times)
     return results

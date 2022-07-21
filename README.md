@@ -9,13 +9,18 @@ be required, because I used Python type hints.
 
 # Execution
 If you use pipenv, then all you need to do is run
+
 ```
-pipenv install
 pipenv run start
 ```
 
-I did not end up using any dependencies, so if you do not have pipenv,
-you can just run python src/main.py in order to execute the code
+Otherwise, you can just use:
+
+```
+python src/main.py
+```
+
+from the root directory
 
 # Names of all files
 main.py - main file to be executed

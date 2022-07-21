@@ -14,7 +14,7 @@ def main():
     matrix = generators.generate_time_matrix()
     #write matrix to file
     with open("ethanwilkes_colespencer_phw_output.txt", "w") as f:
-        f.write("algorithm-1,algorithm-2,algorithm-3,algorithm-4\n")
+        f.write("algorithm-1,algorithm-2,algorithm-3,algorithm-4,n^3,n^2,nLogn,n\n")
         for row in matrix:
             f.write(",".join(str(i) for i in row))
             f.write("\n")
