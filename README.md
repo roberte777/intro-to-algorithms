@@ -24,13 +24,25 @@ from the root directory
 
 # Names of all files
 main.py - main file to be executed
+
 algos/__init__.py - inits the algos module, exports required funcs
+
 algo_1.py - file containing the function for algo 1
+
 algo_2.py - file containing the function for algo 2
+
 algo_3.py - file containing the function for algo 3
+
 algo_4.py - file containing the function for algo 4
+
 generators/__init__.py - file containing all the functions I used to generate
 various pieces of this assignment, such as the final matrix and the 19 lists
+
+phw_input.txt - sample input file
+
+ethanwilkes_colespencer_phw_output.txt - sample output
+
+Time Complexities.docx - writeup for this project
 
 # Certification statement
 I certify that I wrote the code I am submitting. I did not copy whole or parts
